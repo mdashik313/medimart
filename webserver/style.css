@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background: url("img/WallpaperDog-5504082.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main_div{
+    width: 1323px;
+}
+.main_div nav{
+    height: 55px;
+    background-color: #383838;
+}
+.main_div nav h1{
+    margin-left: 25px;
+    color: white;
+    float: left;
+    margin-top: 10px;
+}
+.cred{
+    float: right;
+    display: flex;
+    
+}
+.cred p{
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+.cred a button{
+    font-size: 16px;
+}
+.cred button{
+    width: 80px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.main_div .main_body{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.main_div .recharge{
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main_div .buy{
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-right: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main_div .buy td{
+    color: red;
+}
+
+.recharge button{
+    height: 20px;
+    border: 1px solid white;
+   
+}
+.rech table{
+    margin-left: 28px;
+}
+.rech p {
+    text-align: left;
+    margin-left: 28px;
+    font-size: 21px;
+    color: white;
+     
+}
+.rech p span{
+    color: black;
+}
+.rech input{
+    height: 28px;border: 1px solid white;
+}
+.rech button{
+    height: 28px;border: 1px solid white;
+}
